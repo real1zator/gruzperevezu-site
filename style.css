@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Karla:wght@300;400;500;600;700&display=swap");
 :root{
-  --bg:#faf6f4;--bg2:#f2ece8;--mid:#ede4de;
-  --accent:#c06048;--accent2:#e08878;--accent3:#a2422a;
-  --text:#2a1810;--ts:rgba(0,0,0,.55);--tm:rgba(0,0,0,.35);
-  --brd:rgba(192,96,72,.12);--brdh:rgba(192,96,72,.3);
-  --surf:rgba(0,0,0,.02);--hbg:rgba(250,246,244,.92);
-  --fh:"Bitter",serif;--fb:"Rubik",system-ui,sans-serif;
-  --glow:rgba(192,96,72,.12);
-  --grad-angle:200deg;
-  --card-shadow:0 12px 40px rgba(0,0,0,.25);
+  --bg:#f6faf8;--bg2:#eef4f0;--mid:#e6ede8;
+  --accent:#3a8878;--accent2:#68b8a8;--accent3:#1c6a5a;
+  --text:#182820;--ts:rgba(0,0,0,.55);--tm:rgba(0,0,0,.35);
+  --brd:rgba(58,136,120,.12);--brdh:rgba(58,136,120,.3);
+  --surf:rgba(0,0,0,.02);--hbg:rgba(246,250,248,.92);
+  --fh:"Spectral",serif;--fb:"Karla",system-ui,sans-serif;
+  --glow:rgba(58,136,120,.12);
+  --grad-angle:135deg;
+  --card-shadow:0 4px 24px rgba(0,0,0,.35);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
@@ -318,9 +318,9 @@ small{font-size:12px;color:var(--tm);letter-spacing:.3px}
 /* ═══ PROGRESS BAR ═══ */
 .progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));z-index:101;transition:width .1s linear;width:0}
 
-body::before{background:linear-gradient(200deg,var(--bg) 0%,var(--mid) 40%,var(--bg) 100%)}
-.card,.adv,.testimonial,.step{box-shadow:0 12px 40px rgba(0,0,0,.25)}
-#particles{opacity:.5}
+body::before{background:linear-gradient(135deg,var(--bg) 0%,var(--mid) 40%,var(--bg) 100%)}
+.card,.adv,.testimonial,.step{box-shadow:0 4px 24px rgba(0,0,0,.35)}
+#particles{opacity:.7}
 
 
 
